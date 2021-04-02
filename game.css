@@ -1,0 +1,53 @@
+.box {
+  text-align: justify;
+  border-style: groove;
+  padding: 2vmin;
+  font-size: 8vmin;
+  text-align: center;
+}
+
+.line1 {
+  margin-bottom: 0%;
+}
+.line2 {
+  margin-top: 0%;
+}
+
+.guess {
+  width: 10vmin;
+  height: 10vmin;
+  font-size: 6vmin;
+  border-style: solid;
+}
+
+.btn_check {
+  font-size: 5vmin;
+}
+
+body {
+  background-color: blueviolet;
+}
+
+.hidden {
+  display: none;
+}
+
+.winner_background {
+  background-color: darkorange;
+}
+
+.btn_restart {
+  font-size: 5vmin;
+}
+
+.lost_background {
+  background-color: black;
+  color: white;
+}
+.foot {
+  margin-top: 2vmin;
+  text-align: center;
+  background-color: yellow;
+  font-size: 3vmin;
+  color: red;
+}

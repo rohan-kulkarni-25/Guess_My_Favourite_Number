@@ -1,0 +1,25 @@
+body {
+  background-color: blueviolet;
+}
+
+.box {
+  text-align: justify;
+  border-style: groove;
+  padding: 2vmin;
+  font-size: 5vmin;
+}
+
+.start {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2vmin;
+  font-size: 5vmin;
+}
+
+.foot {
+  margin-top: 2vmin;
+  text-align: center;
+  background-color: yellow;
+  font-size: 3vmin;
+  color: red;
+}
