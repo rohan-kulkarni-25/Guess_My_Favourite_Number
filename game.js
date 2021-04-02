@@ -14,7 +14,7 @@ chanceEl.textContent = `Chances Remaining :- ${chances}`;
 
 document.querySelector('.btn_check').addEventListener('click', function () {
     const guess = Number(document.querySelector('.guess').value);
-    if (guess === 1) {
+    if (guess === number) {
         document.querySelector('.line1').textContent = `Congrats!!`;
         document.querySelector('.line2').textContent = `YOU WON THE GAME !!`;
         document.querySelector('.chance').classList.add('hidden');
