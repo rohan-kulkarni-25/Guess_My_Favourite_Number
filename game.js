@@ -44,9 +44,9 @@ document.querySelector('.btn_check').addEventListener('click', function () {
 
     }
     else {
-
+        chances = chances - 1;
         if (chances > 0) {
-            chances = chances - 1;
+            
             chanceEl.textContent = `Chances Remaining :- ${chances}`;
             alert(`Wrong guess you have ${chances} left !`)
 
