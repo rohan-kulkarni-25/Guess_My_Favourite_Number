@@ -25,21 +25,21 @@ document.querySelector('.btn_check').addEventListener('click', function () {
     }
     else if (guess > 5) {
         if (chances > 0) {
-            chances = chances - 1;
             chanceEl.textContent = `Chances Remaining :- ${chances}`;
-            alert('You have to Enter a Number Between 1 - 5')
+             alert('You have to Enter a Number Between 1 - 5');
+            document.querySelector('.guess').value = '';
 
 
         }
-        else {
-            document.querySelector('.line1').textContent = `Oops !!`;
-            document.querySelector('.line2').textContent = `YOU LOST THE GAME !!`;
-            document.querySelector('.btn_restart').classList.remove('hidden');
-            document.querySelector('.chance').classList.add('hidden');
-            document.querySelector('.btn_check').classList.add('hidden');
-            document.querySelector('.guess').classList.add('hidden');
-            document.querySelector('body').classList.add('lost_background')
-        }
+//         else {
+//             document.querySelector('.line1').textContent = `Oops !!`;
+//             document.querySelector('.line2').textContent = `YOU LOST THE GAME !!`;
+//             document.querySelector('.btn_restart').classList.remove('hidden');
+//             document.querySelector('.chance').classList.add('hidden');
+//             document.querySelector('.btn_check').classList.add('hidden');
+//             document.querySelector('.guess').classList.add('hidden');
+//             document.querySelector('body').classList.add('lost_background')
+//         }
 
 
     }
@@ -49,7 +49,7 @@ document.querySelector('.btn_check').addEventListener('click', function () {
             chances = chances - 1;
             chanceEl.textContent = `Chances Remaining :- ${chances}`;
             alert(`Wrong guess you have ${chances} left !`)
-
+            document.querySelector('.guess').value = '';
 
         }
         else {
