@@ -25,9 +25,9 @@ document.querySelector('.btn_check').addEventListener('click', function () {
     }
     else if (guess > 5) {
         if (chances > 0) {
-            chances = chances - 1;
             chanceEl.textContent = `Chances Remaining :- ${chances}`;
-            alert('You have to Enter a Number Between 1 - 5')
+             alert('You have to Enter a Number Between 1 - 5');
+            document.querySelector('.guess').value = '';
 
 
         }
